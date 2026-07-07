@@ -2,6 +2,8 @@ import Link from "next/link";
 import { tools, comparisons } from "@/lib/tools";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { recommendedGear, amazonLink } from "@/lib/amazon";
+import { DealsSection } from "@/components/DealsSection";
+import { SubmitTool } from "@/components/SubmitTool";
 
 export default function Home() {
   const aiTools = [tools.cursor, tools.copilot, tools.windsurf, tools.cline, tools.codeium, tools.tabnine, tools.continue_dev, tools.cody, tools.codewhisperer];
@@ -66,18 +68,24 @@ export default function Home() {
         <p className="mb-6 text-sm text-zinc-600 dark:text-zinc-400">
           AI coding tools have exploded in 2026. Every major vendor offers an AI pair programmer — but they are not equal.
           Some excel at multi-file editing, others at inline completions, and some prioritize privacy with local models.
-          Here is how the top 3 compare side by side.
+          Here is how the top 4 compare side by side.
         </p>
-        <ComparisonTable tools={[tools.cursor, tools.copilot, tools.windsurf]} verdictId="cursor" />
+        <ComparisonTable tools={[tools.cursor, tools.copilot, tools.cline, tools.windsurf]} verdictId="cursor" />
         <div className="mt-4 flex flex-wrap gap-3">
           <Link href="/compare/best-ai-coding-tools" className="text-sm font-medium text-emerald-600 hover:text-emerald-700 dark:text-emerald-400">
             Full Rankings (9 tools) →
+          </Link>
+          <Link href="/compare/cursor-vs-copilot-vs-cline-vs-devin" className="text-sm font-medium text-emerald-600 hover:text-emerald-700 dark:text-emerald-400">
+            4-Way Showdown →
           </Link>
           <Link href="/compare/best-free-ai-coding-tools" className="text-sm font-medium text-emerald-600 hover:text-emerald-700 dark:text-emerald-400">
             Best Free AI Tools →
           </Link>
           <Link href="/compare/cursor-vs-copilot" className="text-sm font-medium text-emerald-600 hover:text-emerald-700 dark:text-emerald-400">
             Cursor vs Copilot →
+          </Link>
+          <Link href="/compare/cursor-free-vs-pro" className="text-sm font-medium text-emerald-600 hover:text-emerald-700 dark:text-emerald-400">
+            Cursor Free vs Pro →
           </Link>
           <Link href="/compare/cursor-vs-windsurf" className="text-sm font-medium text-emerald-600 hover:text-emerald-700 dark:text-emerald-400">
             Cursor vs Devin Desktop →
@@ -119,6 +127,7 @@ export default function Home() {
         <div className="grid gap-3 sm:grid-cols-2">
           {[
             { href: "/compare/cursor-vs-copilot", title: "Cursor vs GitHub Copilot", desc: "The two biggest AI coding tools compared — pricing, features, multi-file editing" },
+            { href: "/compare/cursor-vs-copilot-vs-cline-vs-devin", title: "Cursor vs Copilot vs Cline vs Devin", desc: "4-way AI tool showdown — the definitive comparison" },
             { href: "/compare/cursor-vs-copilot-vs-cline", title: "Cursor vs Copilot vs Cline", desc: "Three-way AI tool showdown — commercial vs giant vs open source" },
             { href: "/compare/cursor-free-vs-pro", title: "Cursor Free vs Pro", desc: "Is the $20/month upgrade worth it? Request limits, features, alternatives" },
             { href: "/compare/cursor-vs-windsurf", title: "Cursor vs Devin Desktop", desc: "Best AI-first IDE vs agentic platform with local + cloud agents" },
@@ -130,6 +139,8 @@ export default function Home() {
             { href: "/compare/best-ai-coding-tools", title: "Best AI Coding Tools 2026", desc: "All 9 tools ranked and compared with verdicts" },
             { href: "/compare/best-free-ai-coding-tools", title: "Best Free AI Tools", desc: "No credit card required — free tiers ranked by value" },
             { href: "/compare/best-hosting-for-developers", title: "Best Hosting for Developers", desc: "Vercel, Railway, Netlify, Render, Fly.io, DigitalOcean ranked" },
+            { href: "/compare/best-laptop-for-coding", title: "Best Laptops for Coding 2026", desc: "MacBook, ThinkPad, Framework, Dell — tested and ranked" },
+            { href: "/compare/best-monitor-for-programmers", title: "Best Monitors for Programmers", desc: "4K, ultrawide, portable monitors compared for coding" },
           ].map((item) => (
             <Link
               key={item.href}
@@ -219,6 +230,12 @@ export default function Home() {
           Browse more developer gear on Amazon →
         </a>
       </section>
+
+      {/* Deals & Free Tiers */}
+      <DealsSection />
+
+      {/* Submit Your Tool */}
+      <SubmitTool />
 
       {/* FAQ */}
       <section className="mb-16">

@@ -140,7 +140,7 @@ export function ComparisonTable({ tools, verdictId }: ComparisonTableProps) {
                       : "bg-zinc-900 text-white hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
                   }`}
                 >
-                  Try {t.name} →
+                  {t.pricing.free ? `Try ${t.name} Free →` : `Try ${t.name} →`}
                 </a>
               </td>
             ))}

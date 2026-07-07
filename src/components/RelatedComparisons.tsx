@@ -6,14 +6,19 @@ interface RelatedComparisonsProps {
 
 const comparisonLinks = [
   { href: "/compare/cursor-vs-copilot", title: "Cursor vs GitHub Copilot", desc: "The two biggest AI coding tools compared" },
+  { href: "/compare/cursor-vs-copilot-vs-cline", title: "Cursor vs Copilot vs Cline", desc: "Three-way AI tool showdown" },
+  { href: "/compare/cursor-free-vs-pro", title: "Cursor Free vs Pro", desc: "Is $20/month worth the upgrade?" },
   { href: "/compare/cursor-vs-windsurf", title: "Cursor vs Devin Desktop", desc: "Best AI-first IDE vs agentic platform" },
   { href: "/compare/cursor-vs-cline", title: "Cursor vs Cline", desc: "Commercial IDE vs open source agent" },
   { href: "/compare/copilot-vs-codeium", title: "Copilot vs Codeium", desc: "Best-in-class vs best free tier" },
   { href: "/compare/vercel-vs-railway", title: "Vercel vs Railway", desc: "Frontend vs full-stack deployment" },
   { href: "/compare/vercel-vs-netlify", title: "Vercel vs Netlify", desc: "The JAMstack deployment battle" },
-  { href: "/compare/best-ai-coding-tools", title: "Best AI Coding Tools 2026", desc: "All 6 tools ranked and compared" },
+  { href: "/compare/railway-vs-render", title: "Railway vs Render", desc: "Metered vs flat pricing showdown" },
+  { href: "/compare/best-ai-coding-tools", title: "Best AI Coding Tools 2026", desc: "All 9 tools ranked and compared" },
   { href: "/compare/best-free-ai-coding-tools", title: "Best Free AI Tools", desc: "No credit card required" },
-  { href: "/compare/best-hosting-for-developers", title: "Best Hosting for Developers", desc: "Vercel, Railway, Hostinger ranked" },
+  { href: "/compare/best-hosting-for-developers", title: "Best Hosting for Developers", desc: "Vercel, Railway, Netlify, Render ranked" },
+  { href: "/compare/best-laptop-for-coding", title: "Best Laptops for Coding 2026", desc: "MacBook, ThinkPad, Framework compared" },
+  { href: "/compare/best-monitor-for-programmers", title: "Best Monitors for Programmers", desc: "4K, ultrawide, portable — eye comfort matters" },
 ];
 
 export function RelatedComparisons({ currentSlug }: RelatedComparisonsProps) {
