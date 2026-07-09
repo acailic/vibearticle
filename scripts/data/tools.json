@@ -1,0 +1,162 @@
+{
+  "cursor": {
+    "id": "cursor", "name": "Cursor", "slug": "cursor", "logo": "🔥",
+    "tagline": "AI-first code editor built for pair-programming with AI",
+    "pricing": { "free": true, "freePrice": "Free (limited AI)", "pro": "$20/mo", "team": "$40/user/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://cursor.sh",
+    "features": ["Built-in AI chat with codebase context", "Multi-file editing with AI", "Codebase indexing for semantic search", "Composer: multi-step agent edits", "Tab completion with AI predictions", "Custom rules and .cursorrules support", "Imports from VS Code extensions and settings"],
+    "pros": ["Best-in-class codebase understanding", "Composer agent is incredibly powerful for multi-file changes", "VS Code compatible — easy migration", "Fast and responsive even on large projects", "Active development with frequent updates"],
+    "cons": ["Requires separate subscription on top of IDE", "Occasionally slow AI responses under heavy load", "Some workflows feel forced into AI-first paradigm"],
+    "rating": 4.7, "bestFor": "Developers who want the most powerful AI coding assistant and are willing to pay for it"
+  },
+  "windsurf": {
+    "id": "windsurf", "name": "Devin Desktop", "slug": "devin-desktop", "logo": "🏄",
+    "tagline": "Formerly Windsurf — AI-powered IDE with agent command center by Cognition",
+    "pricing": { "free": true, "freePrice": "Free (limited quota)", "pro": "$20/mo", "team": "$80/mo + $40/user/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://devin.ai",
+    "features": ["Agent Command Center for managing fleets of local + cloud agents", "Devin Cloud for cloud-based AI agents", "SWE 1.6 model — latest AI coding model", "Supports OpenAI, Claude, Gemini frontier models", "VS Code fork with familiar UX (Windsurf heritage)", "Built-in terminal with AI awareness", "Context awareness across entire project"],
+    "pros": ["Powerful agentic platform with local + cloud agents", "SWE 1.6 is one of the best coding models available", "Access to multiple frontier models (Claude, GPT, Gemini)", "Free tier with unlimited inline edits and tab completions", "Backed by Cognition (Devin company) — well-funded"],
+    "cons": ["Rebranded from Windsurf — some UX disruption during transition", "Pro plan same price as Cursor ($20/mo) — no longer the budget pick", "Team pricing jumped significantly ($80/mo base)", "Cloud agent usage can consume quota quickly", "Newer platform — still finding its footing post-rebrand"],
+    "rating": 4.1, "bestFor": "Developers who want an all-in-one agentic platform with both local and cloud AI agents, backed by Cognition's Devin AI"
+  },
+  "copilot": {
+    "id": "copilot", "name": "GitHub Copilot", "slug": "github-copilot", "logo": "🤖",
+    "tagline": "Your AI pair programmer from GitHub and OpenAI",
+    "pricing": { "free": true, "freePrice": "Free for verified students & open source", "pro": "$10/mo", "team": "$19/user/mo", "enterprise": "$39/user/mo" },
+    "affiliateUrl": "https://github.com/features/copilot",
+    "features": ["Inline code suggestions in editor", "Copilot Chat with GPT-4o and Claude", "Workspace awareness for full context", "Copilot Edits for multi-file changes", "CLI mode for terminal tasks", "GitHub integration (PRs, issues, code search)"],
+    "pros": ["Largest user base and most mature product", "Works inside any IDE (VS Code, JetBrains, Neovim, etc.)", "Excellent inline completions — fast and accurate", "Deep GitHub integration", "Free for students and popular open-source maintainers", "Enterprise support and security review"],
+    "cons": ["Chat is good but not as powerful as Cursor's Composer", "Multi-file editing is newer and less polished", "Microsoft/OpenAI lock-in concerns", "Privacy: code sent to servers by default"],
+    "rating": 4.5, "bestFor": "Teams already using GitHub who want the most widely-supported AI coding assistant across all IDEs"
+  },
+  "codeium": {
+    "id": "codeium", "name": "Codeium", "slug": "codeium", "logo": "⚡",
+    "tagline": "Free AI code completion — now part of Cognition's Devin ecosystem",
+    "pricing": { "free": true, "freePrice": "Free (limited)", "pro": "$20/mo (Devin Pro)", "team": "$80/mo + $40/user/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://codeium.com",
+    "features": ["Ultra-fast code completions", "Codeium command for natural language search", "Context-aware completions across repos", "Supports 70+ languages and 40+ IDEs", "On-premise deployment option for enterprise", "Now integrated into Devin Desktop IDE"],
+    "pros": ["Free tier still available with unlimited completions", "Fast completions without waiting on frontier models", "Privacy-focused with on-premise option", "Supports virtually every IDE", "Part of Cognition/Devin — strong backing"],
+    "cons": ["Standalone product overshadowed by Devin Desktop rebrand", "Chat capabilities less sophisticated than Cursor/Copilot", "Pro pricing jumped to $20/mo (was $12)", "Multi-file agent editing less polished than Cursor Composer"],
+    "rating": 3.8, "bestFor": "Developers who want free AI completions in any IDE, or enterprises needing on-premise deployment for privacy"
+  },
+  "cline": {
+    "id": "cline", "name": "Cline", "slug": "cline", "logo": "🧠",
+    "tagline": "Autonomous AI coding agent that lives inside your IDE",
+    "pricing": { "free": true, "freePrice": "Free (bring your own API key)", "pro": "$20/mo (via API costs)", "team": "Varies", "enterprise": "Custom" },
+    "affiliateUrl": "https://cline.bot",
+    "features": ["Fully autonomous coding agent in VS Code", "Bring your own LLM (Claude, GPT-4, local models)", "Can run terminal commands, edit files, browse web", "Plan → Code → Review workflow", "No subscription — pay only for API usage", "Open source"],
+    "pros": ["Most autonomous agent experience available", "No vendor lock-in on AI model", "Open source and self-hostable", "Can use local models for zero cost", "Extremely flexible — adapts to your workflow"],
+    "cons": ["Requires API key setup (not plug-and-play)", "Can make mistakes without guardrails", "API costs can add up for heavy use", "Less polished UX than commercial alternatives", "Requires more supervision during complex tasks"],
+    "rating": 4.2, "bestFor": "Power users who want maximum control over their AI agent and don't mind managing API keys"
+  },
+  "tabnine": {
+    "id": "tabnine", "name": "Tabnine", "slug": "tabnine", "logo": "⌨️",
+    "tagline": "AI code assistant that runs locally for maximum privacy",
+    "pricing": { "free": true, "freePrice": "Free (basic)", "pro": "$12/mo", "team": "$14/user/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://www.tabnine.com",
+    "features": ["Local AI model — code never leaves your machine", "Whole-line and full-function completions", "AI chat with codebase context", "Team learning from your private code", "Supports all major IDEs"],
+    "pros": ["Best privacy option — everything runs locally", "No internet connection needed for completions", "Team learning adapts to your codebase", "Good completion quality for common patterns", "Enterprise-friendly with on-premise option"],
+    "cons": ["Local model less capable than cloud-based GPT-4/Claude", "Chat and agent features less powerful", "Slower to adopt new AI capabilities", "Completions can be repetitive on larger codebases"],
+    "rating": 3.8, "bestFor": "Teams with strict security/privacy requirements who need code assistance without sending code to cloud services"
+  },
+  "continue": {
+    "id": "continue", "name": "Continue", "slug": "continue", "logo": "⚡",
+    "tagline": "Open-source AI code assistant that runs inside your IDE — fast, private, extensible.",
+    "pricing": { "free": true, "freePrice": "Free (open source)", "pro": "Free", "team": "Free", "enterprise": "Free" },
+    "affiliateUrl": "https://continue.dev",
+    "features": ["Open-source AI code assistant for VS Code and JetBrains", "Uses local or cloud LLMs (Claude, GPT, local via Ollama)", "Inline completions and chat with codebase context", "Custom rules and prompts support", "Tab autocomplete with multiple model support", "Lightweight and fast — no heavy IDE needed"],
+    "pros": ["Completely free and open source", "Runs locally with Ollama for zero cost", "Works with any LLM provider", "Very lightweight extension", "Active open-source community"],
+    "cons": ["Less polished than Cursor or Copilot", "Requires LLM configuration", "Smaller feature set than commercial tools", "Documentation could be better"],
+    "rating": 4.0, "bestFor": "Developers who want a free, open-source AI coding assistant with full model control"
+  },
+  "cody": {
+    "id": "cody", "name": "Sourcegraph Cody", "slug": "cody", "logo": "🔍",
+    "tagline": "AI coding assistant with deep codebase understanding powered by Sourcegraph's code intelligence.",
+    "pricing": { "free": true, "freePrice": "Free (200 autocompletes/day)", "pro": "$9/mo", "team": "$19/user/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://sourcegraph.com/cody",
+    "features": ["Deep codebase search and understanding", "Context-aware completions using Sourcegraph", "Chat with entire codebase context", "Supports VS Code and JetBrains", "Bring your own LLM or use Cody's models", "Code graph intelligence for cross-repo understanding"],
+    "pros": ["Best codebase understanding of any AI assistant", "Sourcegraph's code intelligence is unmatched", "Generous free tier", "Works across multiple repositories", "Great for large codebases"],
+    "cons": ["Setup can be complex for private repos", "Sometimes slow on very large codebases", "Less known than Cursor or Copilot", "Chat can be verbose"],
+    "rating": 4.1, "bestFor": "Teams with large, complex codebases who need deep cross-repo AI understanding"
+  },
+  "codewhisperer": {
+    "id": "codewhisperer", "name": "Amazon Q Developer", "slug": "amazon-q-developer", "logo": "☁️",
+    "tagline": "Amazon's AI coding companion — free for individuals with CodeWhisperer heritage.",
+    "pricing": { "free": true, "freePrice": "Free (Individual tier)", "pro": "$19/user/mo (Pro)", "team": "$19/user/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://aws.amazon.com/q/developer/",
+    "features": ["Free AI code suggestions for individuals", "Security scanning built-in", "Code transformation and upgrades", "Inline completions and chat", "AWS ecosystem integration", "Supports 15+ programming languages"],
+    "pros": ["Free for individual developers", "Security scanning is excellent", "AWS integration if you're in that ecosystem", "Good for legacy code modernization", "Enterprise-grade security review"],
+    "cons": ["Not as polished as Cursor or Copilot for general coding", "AWS-centric — less useful outside AWS", "Code suggestions less accurate than competitors", "Chat features are basic"],
+    "rating": 3.7, "bestFor": "AWS developers or teams needing free AI coding with built-in security scanning"
+  },
+  "vercel": {
+    "id": "vercel", "name": "Vercel", "slug": "vercel", "logo": "▲",
+    "tagline": "Deploy web apps in seconds. The native platform for Next.js, React, and more.",
+    "pricing": { "free": true, "freePrice": "Free (Hobby tier)", "pro": "$20/user/mo", "team": "$40/user/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://vercel.com",
+    "features": ["Instant deployments with zero config", "Native Next.js and React support", "Serverless functions and edge computing", "Preview deployments for every PR", "Built-in analytics and observability", "Automatic HTTPS and global CDN"],
+    "pros": ["Fastest deploy experience for Next.js", "Generous free Hobby tier", "Preview URLs for every branch/PR", "Automatic scaling to zero when idle", "Best DX for frontend developers"],
+    "cons": ["Cold starts on serverless functions", "Vendor lock-in for some features", "Pricing can escalate with traffic", "Limited serverless function execution time"],
+    "rating": 4.6, "bestFor": "Frontend developers deploying Next.js/React apps who want zero-config deployments"
+  },
+  "railway": {
+    "id": "railway", "name": "Railway", "slug": "railway", "logo": "🚂",
+    "tagline": "Deploy anything. Backend, databases, cron jobs — all in one platform.",
+    "pricing": { "free": true, "freePrice": "Free (5 credits/mo + $5 free)", "pro": "$20/mo", "team": "$30/user/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://railway.com?referralCode=NgfyjC",
+    "features": ["One-click deploy from GitHub", "Built-in PostgreSQL, MySQL, Redis, MongoDB", "Auto-scaling and resource management", "Private networking between services", "Cron jobs and background workers", "Docker support with auto-detection"],
+    "pros": ["Incredibly simple full-stack deployment", "Databases included — no separate provider needed", "Generous free tier ($5/month credit)", "Great for MVPs and side projects", "15% affiliate commission for 12 months"],
+    "cons": ["Pricing meter-based — can surprise at scale", "Limited regions compared to big cloud providers", "No custom domains on free tier", "Less mature CI/CD than Vercel/Netlify"],
+    "rating": 4.4, "bestFor": "Developers who want to deploy full-stack apps (backend + DB) without managing infrastructure"
+  },
+  "hostinger": {
+    "id": "hostinger", "name": "Hostinger", "slug": "hostinger", "logo": "🌐",
+    "tagline": "Affordable web hosting with VPS, shared hosting, and domain registration.",
+    "pricing": { "free": false, "freePrice": "No free tier", "pro": "$2.99/mo (shared)", "team": "$3.99/mo (business)", "enterprise": "VPS from $4.99/mo" },
+    "affiliateUrl": "https://www.hostinger.com/?ref=aitoolbox",
+    "features": ["Shared, VPS, and cloud hosting", "Domain registration included", "One-click WordPress install", "Free SSL certificate", "Website builder included", "99.9% uptime guarantee"],
+    "pros": ["Extremely affordable starting price", "40%+ affiliate commissions on sales", "Good for beginners and small projects", "All-in-one: hosting + domain + email", "Free migration assistance"],
+    "cons": ["Shared hosting limited for production apps", "VPS requires Linux knowledge", "Not ideal for modern serverless/Jamstack", "Upselling on renewal prices"],
+    "rating": 4.0, "bestFor": "Beginners and small businesses who need affordable shared hosting with domain included"
+  },
+  "netlify": {
+    "id": "netlify", "name": "Netlify", "slug": "netlify", "logo": "🌐",
+    "tagline": "Build, deploy, and host your static sites and web apps with Git-based workflow.",
+    "pricing": { "free": true, "freePrice": "Free (100GB bandwidth)", "pro": "$19/user/mo", "team": "$38/user/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://www.netlify.com",
+    "features": ["Git-based automatic deployments", "Built-in form handling (no backend needed)", "Netlify Identity for user authentication", "Edge functions and serverless", "Split testing and deploy previews", "Automatic HTTPS and global CDN"],
+    "pros": ["Excellent for static sites and JAMstack", "Built-in form handling saves backend work", "Free tier includes 100GB bandwidth", "Deploy previews for every PR", "Simple and reliable"],
+    "cons": ["Less suited for dynamic server-rendered apps than Vercel", "Serverless functions limited to 10s on free tier", "No built-in databases", "Build minutes limited on free tier"],
+    "rating": 4.3, "bestFor": "Frontend developers building static sites, blogs, or documentation who need built-in forms and auth"
+  },
+  "render": {
+    "id": "render", "name": "Render", "slug": "render", "logo": "🔧",
+    "tagline": "Modern cloud platform for building and running web apps and APIs without configuration.",
+    "pricing": { "free": true, "freePrice": "Free (750h/mo web services)", "pro": "$7/mo", "team": "$15/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://render.com",
+    "features": ["Web services, background workers, cron jobs", "Managed PostgreSQL and Redis", "Auto-scaling with zero downtime deploys", "Docker support", "Private network between services", "Preview environments on pull requests"],
+    "pros": ["Great value at $7/mo for starter plan", "Managed databases included", "Auto-scaling is smooth", "Docker support for any language", "Similar to Railway but more established"],
+    "cons": ["Free tier spins down after 15 min inactivity", "Cold starts on free plan", "Less generous free tier than Vercel", "Limited regions"],
+    "rating": 4.2, "bestFor": "Developers who need full-stack deployment with managed databases at a reasonable price"
+  },
+  "flyio": {
+    "id": "flyio", "name": "Fly.io", "slug": "flyio", "logo": "✈️",
+    "tagline": "Run your apps close to your users with global edge deployment in 30+ regions.",
+    "pricing": { "free": true, "freePrice": "Free (3 shared VMs)", "pro": "$5-15/mo", "team": "$20+/mo", "enterprise": "Custom" },
+    "affiliateUrl": "https://fly.io",
+    "features": ["Global edge deployment in 30+ regions", "Anycast networking for lowest latency", "Lightweight Machines (micro-VMs)", "Docker-based deployments", "Postgres, Redis, and D1 SQLite", "Volume storage for persistent data"],
+    "pros": ["Global deployment for lowest latency", "Very fast cold starts with Firecracker VMs", "Generous free tier", "Good for APIs and background workers", "Docker-native"],
+    "cons": ["Steeper learning curve than Vercel/Railway", "Less polished dashboard", "Debugging can be tricky", "Support documentation needs improvement"],
+    "rating": 4.0, "bestFor": "Developers building APIs or real-time apps that need global low-latency deployment"
+  },
+  "digitalocean": {
+    "id": "digitalocean", "name": "DigitalOcean", "slug": "digitalocean", "logo": "🌊",
+    "tagline": "Simple cloud hosting with Droplets, managed databases, App Platform, and GPU compute.",
+    "pricing": { "free": true, "freePrice": "Free ($200 credit for 60 days)", "pro": "$4/mo (Droplet)", "team": "$6/mo (managed DB)", "enterprise": "Custom" },
+    "affiliateUrl": "https://www.digitalocean.com",
+    "features": ["Droplets (virtual machines) from $4/mo", "App Platform (PaaS) for simple deploys", "Managed databases (PostgreSQL, MySQL, Redis, MongoDB)", "GPU Droplets for AI/ML workloads", "Kubernetes (DOKS)", "Spaces for object storage (S3-compatible)"],
+    "pros": ["Simplest cloud provider to get started with", "$200 free credit for new accounts", "Predictable flat pricing", "Good documentation and tutorials", "App Platform for easy deploys"],
+    "cons": ["You manage servers yourself (Droplets)", "Less automated than Vercel/Railway", "Support can be slow for complex issues", "Fewer regions than AWS/GCP"],
+    "rating": 4.3, "bestFor": "Developers who want full server control at a predictable price, or teams needing GPU compute for AI/ML"
+  }
+}

@@ -642,6 +642,18 @@ export const comparisons = [
     verdict: "cursor",
     updatedDate: "2026-07-07",
   },
+
+  {
+    id: "cline-vs-copilot",
+    slug: "cline-vs-copilot",
+    title: "Cline vs GitHub Copilot (2026) — Open Source Agent vs AI Pair Programmer",
+    metaTitle: "Cline vs GitHub Copilot (2026) — Open Source Agent vs AI Pair Programmer",
+    metaDescription:
+      "Cline vs GitHub Copilot: open source autonomous agent compared with GitHub's AI pair programmer. Pricing, privacy, autonomy, IDE support, and verdict.",
+    toolIds: ["cline", "copilot"],
+    verdict: "copilot",
+    updatedDate: "2026-07-09",
+  },
 ];
 
 export function getTool(id: string): Tool | undefined {

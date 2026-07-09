@@ -23,7 +23,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/compare/vercel-vs-railway`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/compare/vercel-vs-netlify`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/compare/railway-vs-render`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
-  ];
+  
+    { url: `${BASE_URL}/compare/cline-vs-copilot`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+];
 
   return pages;
 }

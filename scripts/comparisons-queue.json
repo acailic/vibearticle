@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "copilot-vs-windsurf",
+    "title": "GitHub Copilot vs Devin Desktop (2026) — Enterprise AI vs Agentic Platform",
+    "metaDescription": "GitHub Copilot vs Devin Desktop (formerly Windsurf): the most popular AI assistant compared with Cognition's agentic platform. Pricing, models, autonomy, and verdict.",
+    "toolIds": [
+      "copilot",
+      "windsurf"
+    ],
+    "verdict": "copilot",
+    "type": "pair",
+    "priority": 2
+  },
+  {
+    "slug": "cline-vs-windsurf",
+    "title": "Cline vs Devin Desktop (2026) — Open Source Agent vs Cloud Agent Platform",
+    "metaDescription": "Cline vs Devin Desktop: two agentic coding platforms compared. Open source autonomy vs managed cloud agents. Pricing, models, privacy.",
+    "toolIds": [
+      "cline",
+      "windsurf"
+    ],
+    "verdict": "cline",
+    "type": "pair",
+    "priority": 3
+  },
+  {
+    "slug": "cursor-vs-codeium",
+    "title": "Cursor vs Codeium (2026) — Best Paid AI Editor vs Free AI Completions",
+    "metaDescription": "Cursor vs Codeium: $20/mo AI-first editor compared with free AI completions. Features, speed, privacy, and is Cursor worth the upgrade?",
+    "toolIds": [
+      "cursor",
+      "codeium"
+    ],
+    "verdict": "cursor",
+    "type": "pair",
+    "priority": 4
+  },
+  {
+    "slug": "cursor-vs-cody",
+    "title": "Cursor vs Sourcegraph Cody (2026) — Best IDE AI vs Best Codebase AI",
+    "metaDescription": "Cursor vs Sourcegraph Cody: AI-first IDE compared with the deepest codebase understanding. Codebase context, cross-repo search, and verdict.",
+    "toolIds": [
+      "cursor",
+      "cody"
+    ],
+    "verdict": "cursor",
+    "type": "pair",
+    "priority": 5
+  },
+  {
+    "slug": "cline-vs-codeium",
+    "title": "Cline vs Codeium (2026) — Open Source Agent vs Free Completions",
+    "metaDescription": "Cline vs Codeium: two free AI coding options compared. Autonomous agent vs fast completions. Which is better for your workflow?",
+    "toolIds": [
+      "cline",
+      "codeium"
+    ],
+    "verdict": "cline",
+    "type": "pair",
+    "priority": 6
+  },
+  {
+    "slug": "copilot-vs-cody",
+    "title": "GitHub Copilot vs Sourcegraph Cody (2026) — Most Popular vs Deepest Codebase AI",
+    "metaDescription": "GitHub Copilot vs Sourcegraph Cody: the world's most popular AI assistant compared with the deepest codebase intelligence. Features, pricing, verdict.",
+    "toolIds": [
+      "copilot",
+      "cody"
+    ],
+    "verdict": "copilot",
+    "type": "pair",
+    "priority": 7
+  },
+  {
+    "slug": "cursor-vs-tabnine",
+    "title": "Cursor vs Tabnine (2026) — Cloud AI IDE vs Local Privacy-First AI",
+    "metaDescription": "Cursor vs Tabnine: cloud-powered AI editor compared with privacy-first local AI assistant. Code never leaves your machine vs best-in-class AI features.",
+    "toolIds": [
+      "cursor",
+      "tabnine"
+    ],
+    "verdict": "cursor",
+    "type": "pair",
+    "priority": 8
+  },
+  {
+    "slug": "render-vs-flyio",
+    "title": "Render vs Fly.io (2026) — Which Platform for Your Next Deploy?",
+    "metaDescription": "Render vs Fly.io: two developer-friendly cloud platforms compared. Pricing, cold starts, databases, global deployment, and verdict.",
+    "toolIds": [
+      "render",
+      "flyio"
+    ],
+    "verdict": "render",
+    "type": "pair",
+    "priority": 9
+  },
+  {
+    "slug": "digitalocean-vs-railway",
+    "title": "DigitalOcean vs Railway (2026) — Traditional Cloud vs Modern PaaS",
+    "metaDescription": "DigitalOcean vs Railway: traditional cloud hosting compared with modern PaaS. Droplets vs one-click deploy. Databases, pricing, and verdict.",
+    "toolIds": [
+      "digitalocean",
+      "railway"
+    ],
+    "verdict": "railway",
+    "type": "pair",
+    "priority": 10
+  },
+  {
+    "slug": "netlify-vs-render",
+    "title": "Netlify vs Render (2026) — Static Sites vs Full-Stack Apps",
+    "metaDescription": "Netlify vs Render: the static site champion compared with the full-stack platform. Forms, auth, databases, pricing, and verdict.",
+    "toolIds": [
+      "netlify",
+      "render"
+    ],
+    "verdict": "netlify",
+    "type": "pair",
+    "priority": 11
+  },
+  {
+    "slug": "copilot-vs-tabnine",
+    "title": "GitHub Copilot vs Tabnine (2026) — Cloud Power vs Local Privacy",
+    "metaDescription": "GitHub Copilot vs Tabnine: cloud-based AI pair programmer compared with local privacy-first AI assistant. Security, speed, features, verdict.",
+    "toolIds": [
+      "copilot",
+      "tabnine"
+    ],
+    "verdict": "copilot",
+    "type": "pair",
+    "priority": 12
+  },
+  {
+    "slug": "cline-vs-continue",
+    "title": "Cline vs Continue (2026) — Two Open Source AI Coding Assistants Compared",
+    "metaDescription": "Cline vs Continue: two open source AI coding tools compared. Autonomous agent vs lightweight assistant. Privacy, cost, features, verdict.",
+    "toolIds": [
+      "cline",
+      "continue"
+    ],
+    "verdict": "cline",
+    "type": "pair",
+    "priority": 13
+  },
+  {
+    "slug": "cursor-vs-copilot-vs-windsurf",
+    "title": "Cursor vs Copilot vs Devin Desktop (2026) — 3-Way AI IDE Showdown",
+    "metaDescription": "Cursor vs GitHub Copilot vs Devin Desktop: the three biggest AI coding platforms compared. Pricing, features, models, autonomy, and our verdict.",
+    "toolIds": [
+      "cursor",
+      "copilot",
+      "windsurf"
+    ],
+    "verdict": "cursor",
+    "type": "triple",
+    "priority": 14
+  },
+  {
+    "slug": "best-ai-tools-for-students",
+    "title": "Best AI Coding Tools for Students in 2026 (Free & Discounted)",
+    "metaDescription": "Best AI coding tools for computer science students in 2026. Free tiers, student discounts, and which tools actually help you learn faster.",
+    "toolIds": [
+      "cursor",
+      "copilot",
+      "cline",
+      "codeium",
+      "continue",
+      "tabnine"
+    ],
+    "verdict": "copilot",
+    "type": "best-of",
+    "context": "students",
+    "priority": 15
+  },
+  {
+    "slug": "best-ai-tools-for-teams",
+    "title": "Best AI Coding Tools for Teams in 2026 (Enterprise & Startup)",
+    "metaDescription": "Best AI coding tools for engineering teams in 2026. Team plans, admin controls, security, IP protection, and cost at scale compared.",
+    "toolIds": [
+      "cursor",
+      "copilot",
+      "cody",
+      "cline",
+      "tabnine"
+    ],
+    "verdict": "copilot",
+    "type": "best-of",
+    "context": "teams",
+    "priority": 16
+  },
+  {
+    "slug": "best-hosting-for-static-sites",
+    "title": "Best Hosting for Static Sites in 2026 — Vercel, Netlify, Cloudflare Compared",
+    "metaDescription": "Best hosting for static sites, blogs, and JAMstack apps in 2026. Vercel, Netlify, and Cloudflare Pages compared on pricing, speed, and features.",
+    "toolIds": [
+      "vercel",
+      "netlify",
+      "render",
+      "flyio"
+    ],
+    "verdict": "vercel",
+    "type": "best-of",
+    "context": "static-sites",
+    "priority": 17
+  },
+  {
+    "slug": "best-ai-tools-for-privacy",
+    "title": "Best Privacy-Focused AI Coding Tools in 2026 (Local & On-Premise)",
+    "metaDescription": "Best AI coding tools that protect your code privacy. Local models, on-premise deployment, and tools that don't send your code to the cloud.",
+    "toolIds": [
+      "cline",
+      "tabnine",
+      "continue",
+      "codeium"
+    ],
+    "verdict": "cline",
+    "type": "best-of",
+    "context": "privacy",
+    "priority": 18
+  },
+  {
+    "slug": "codeium-vs-tabnine",
+    "title": "Codeium vs Tabnine (2026) — Two Free AI Completions Compared",
+    "metaDescription": "Codeium vs Tabnine: two AI coding tools with free tiers compared. Speed, IDE support, privacy, and which free completions are actually useful.",
+    "toolIds": [
+      "codeium",
+      "tabnine"
+    ],
+    "verdict": "codeium",
+    "type": "pair",
+    "priority": 19
+  },
+  {
+    "slug": "cursor-vs-amazon-q",
+    "title": "Cursor vs Amazon Q Developer (2026) — Best AI Editor vs Free AWS AI",
+    "metaDescription": "Cursor vs Amazon Q Developer (CodeWhisperer): the best AI-first editor compared with Amazon's free AI coding tool. Features, pricing, AWS integration.",
+    "toolIds": [
+      "cursor",
+      "codewhisperer"
+    ],
+    "verdict": "cursor",
+    "type": "pair",
+    "priority": 20
+  }
+]
